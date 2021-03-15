@@ -17,6 +17,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 #nav {
     display: inline-block;
@@ -85,11 +86,28 @@
 }
 
 #slider{
-    min-height: 400px;
+    position: relative;
     margin-top: 46px;
-    /* background-color: #333; */
+    padding-top: 50%;
+    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
 }
-
+#slider .text-content{
+    color: #fff;
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 15px;
+}
 #content{
     height: 1000px; 
     background: #ccc;
