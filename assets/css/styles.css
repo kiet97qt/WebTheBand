@@ -13,6 +13,10 @@
 #header{
     height: 46px;
     background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 #nav {
     display: inline-block;
@@ -82,11 +86,13 @@
 
 #slider{
     min-height: 400px;
+    margin-top: 46px;
     /* background-color: #333; */
 }
 
 #content{
-
+    height: 1000px; 
+    background: #ccc;
 }
 
 #footer{
