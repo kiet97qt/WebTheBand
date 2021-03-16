@@ -6,6 +6,12 @@
  html{
      font-family: Helvetica, Arial, sans-serif;
  }
+ .clear{
+     clear: both;
+ }
+ .text-white{
+     color: #fff !important;
+ }
 #main{
     
 }
@@ -109,9 +115,85 @@
     margin-top: 15px;
 }
 #content{
-    height: 1000px; 
-    background: #ccc;
+    /* height: 1000px; 
+    background: #ccc; */
 }
+
+#content .content-section{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px  64px 16px;
+}
+#content .section-heaeding{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+#content .section-sub-heading{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+#content .about-text{
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#content .member-item{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
+#content .members-list{
+    margin-top: 48px;
+}
+#content .tour-section{
+    background-color: #000;
+}
+.tickets-list{
+    background-color: #fff ;
+    margin-top: 40px;
+    list-style: none;
+}
+.tickets-list li{
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 9px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.tickets-list .sold-out{
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 8px;
+    margin-left: 16px;
+}
+.tickets-list .quantity{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 16px;
+}
+
 
 #footer{
 
