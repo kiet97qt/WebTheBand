@@ -193,8 +193,56 @@
     line-height: 24px;
     margin-right: 16px;
 }
-
-
+/* Places Ticket*/
+.places-list {
+    margin: 32px -16px 0 -16px;
+    width: 800px;
+    padding: 0 8px;
+    padding-bottom: 32px;
+}
+.place-item{
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+.place-img{
+    width:100%;
+    display: block;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+    background-color: #fff;
+    font-size: 15px;
+    padding: 0.15px 16px;
+}
+.place-heading{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.place-time{
+    margin-top: 15px;
+    color: #757575;
+    line-height: 1.5;
+}
+.place-desc{
+    margin: 15px 0;
+}
+.place-buy-btn{
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 8px 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+.place-buy-btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
 #footer{
 
 }
